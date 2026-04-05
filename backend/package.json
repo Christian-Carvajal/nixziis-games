@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {
-    "dev": "node --watch src/server/index.js",
-    "start": "node src/server/index.js"
-  },
+"scripts": {
+  "dev": "node --watch server/index.js",
+  "start": "node server/index.js"
+}
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
