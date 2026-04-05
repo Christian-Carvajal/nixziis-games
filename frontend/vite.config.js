@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/nixziis-games/",   // 👈 THIS IS THE FIX
   server: {
     port: 5173
   },
